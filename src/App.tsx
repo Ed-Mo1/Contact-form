@@ -54,11 +54,11 @@ const App = () => {
     );
 
     reset({
-      fName: undefined,
-      lName: undefined,
-      email: undefined,
+      fName: '',
+      lName: '',
+      email: '',
       getContact: false,
-      message: undefined,
+      message: '',
       qType: undefined,
     });
   };
