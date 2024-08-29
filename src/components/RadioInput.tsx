@@ -28,7 +28,7 @@ const RadioInput = (props: InputType) => {
       <div className="w-[22px]  aspect-square rounded-full border-2 border-medium-grey peer-checked:border-medium-green bg-white p-1">
         <div />
       </div>
-      <InputLabel label={props.label} name={props.label} />
+      <InputLabel hideStar={true} label={props.label} name={props.label} />
     </div>
   );
 };

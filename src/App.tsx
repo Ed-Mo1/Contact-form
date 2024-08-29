@@ -20,12 +20,12 @@ const App = () => {
     resolver: zodResolver(schema),
     mode: "onChange",
     defaultValues: {
-      fName: "",
-      lName: "",
-      email: "",
+      fName: undefined,
+      lName: undefined,
+      email: undefined,
       getContact: false,
-      message: "",
-      qType: "",
+      message: undefined,
+      qType: undefined,
     },
   });
 
@@ -54,12 +54,12 @@ const App = () => {
     );
 
     reset({
-      fName: "",
-      lName: "",
-      email: "",
+      fName: undefined,
+      lName: undefined,
+      email: undefined,
       getContact: false,
-      message: "",
-      qType: "",
+      message: undefined,
+      qType: undefined,
     });
   };
   return (
